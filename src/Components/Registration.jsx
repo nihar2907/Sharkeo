@@ -28,7 +28,7 @@ const Registration = () => {
         // let state = event.target.state;
         let value = event.target.value;
 
-        setUser({...user, [firstname]: value })
+        setUser({ ...user, [firstname]: value })
 
 
     }
@@ -78,21 +78,20 @@ const Registration = () => {
     return (
         <div>
             <div className="container2 border  mx-auto">
-                {/* <div className="main"> */}
                 <h2 className='text-center'>Create an account</h2>
                 <form name="regForm" onSubmit={handleSubmit} action="/register" method="POST">
                     <div className="row m-3">
                         <div className="col-6">
                             <label htmlFor="fname">First name</label>
                             <input type="text" className="form-control" id="fname" name="firstname" defaultValue={user.firstname} onChange={handleInput}
-                                />
+                            />
                             <span id="msg"><small></small></span>
 
                         </div>
                         <div className="col-6">
                             <label htmlFor="lname">Last name</label>
-                            <input type="text" className="form-control" id="lname" name="lastname" defaultValue= {user.lastname} onChange={handleInput}
-                                 />
+                            <input type="text" className="form-control" id="lname" name="lastname" defaultValue={user.lastname} onChange={handleInput}
+                            />
                             <span id="msg1"><small></small></span>
 
                         </div>
@@ -101,14 +100,14 @@ const Registration = () => {
                         <div className="col-6">
                             <label htmlFor="fname">Mobile</label>
                             <input type="text" className="form-control" id="mno" name="mobileNo" defaultValue={user.mobileNo} onChange={handleInput}
-                                 />
+                            />
                             <span id="msg"><small></small></span>
 
                         </div>
                         <div className="col-6">
                             <label htmlFor="lname">Email id</label>
                             <input type="text" className="form-control" id="email" name="email" defaultValue={user.email} onChange={handleInput}
-                                 />
+                            />
                             <span id="msg1"><small></small></span>
 
                         </div>
@@ -117,14 +116,14 @@ const Registration = () => {
                         <div className="col-6">
                             <label htmlFor="fname">State</label>
                             <input type="text" className="form-control" id="state" name="state" defaultValue={user.state} onChange={handleInput}
-                                 />
+                            />
                             <span id="msg"><small></small></span>
 
                         </div>
                         <div className="col-6">
                             <label htmlFor="lname">City</label>
                             <input type="text" className="form-control" id="city" name="city" defaultValue={user.city} onChange={handleInput}
-                                 />
+                            />
                             <span id="msg1"><small></small></span>
 
                         </div>
@@ -133,14 +132,14 @@ const Registration = () => {
                         <div className="col-6">
                             <label htmlFor="fname">Password</label>
                             <input type="text" className="form-control" id="pass" name="password" defaultValue={user.password} onChange={handleInput}
-                                 />
+                            />
                             <span id="msg"><small></small></span>
 
                         </div>
                         <div className="col-6">
                             <label htmlFor="lname">Confirm Password</label>
                             <input type="text" className="form-control" id="cpass" name="cpassword" defaultValue={user.cpassword} onChange={handleInput}
-                                 />
+                            />
                             <span id="msg1"><small></small></span>
 
                         </div>

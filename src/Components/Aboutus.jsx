@@ -4,7 +4,7 @@ import "../css/Aboutus.css"
 function Aboutus() {
   return (
     <div>
-          About
+          About us for now
     </div>
   )
 }

@@ -1,6 +1,4 @@
 import React from 'react'
-import Chat from './Chat'
-
 function Home() {
     return (
         <div >
@@ -174,12 +172,8 @@ function Home() {
                     </div>
                 </div>
             </section>
-            
-
-
-        
         </div>
-        
+
     )
 }
 
