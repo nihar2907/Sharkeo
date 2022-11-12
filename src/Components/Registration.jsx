@@ -18,14 +18,6 @@ const Registration = () => {
 
     const handleInput = (event) => {
         let firstname = event.target.firstname;
-        // let lastname = event.target.lastname;
-        // let email = event.target.email;
-        // let mobileNo = event.target.mobileNo;
-        // let password = event.target.password;
-        // let cpassword = event.target.cpassword;
-        // let address = event.target.address;
-        // let city = event.target.city;
-        // let state = event.target.state;
         let value = event.target.value;
 
         setUser({ ...user, [firstname]: value })
@@ -158,7 +150,6 @@ const Registration = () => {
                 </form>
 
             </div>
-            {/* </div> */}
         </div>
     )
 }

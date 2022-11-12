@@ -1,6 +1,6 @@
 import React from 'react'
 import "../css/Explore.css"
-function Explore() {
+const Explore = () => {
     const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     const items = number.map(() => {
         return (

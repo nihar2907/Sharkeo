@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/Login.css'
-function Login() {
+const Login = () => {
     return (
         <div>
             <div className="container d-flex justify-content-center">

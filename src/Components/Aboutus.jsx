@@ -1,7 +1,7 @@
 import React from 'react'
 import "../css/Aboutus.css"
 
-function Aboutus() {
+const Aboutus = () => {
   return (
     <div>
           About us for now
