@@ -1,12 +1,12 @@
-// const mongoose = require('mongoose')
+const mongoose = require('mongoose')
 
-// const db = 'mongodb+srv://niharvira:<niharvira>@cluster0.xeqopmr.mongodb.net/?retryWrites=true&w=majority';
+const db = '';
 
-// mongoose.connect(db, {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true
-// }).then(() => {
-//     console.log("Connection Successfull")
-// }).catch((e) => {
-//     console.log("Error" + e);
-// })
+mongoose.connect(db, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+}).then(() => {
+    console.log("Connection Successfull")
+}).catch((e) => {
+    console.log("Error" + e);
+})
