@@ -21,16 +21,16 @@ function Footer() {
                         <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                             <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
                             <p>
-                                <a href='#' className='text-white' >MDBootstrap</a>
+                                <a href='/' className='text-white' >MDBootstrap</a>
                             </p>
                             <p>
-                                <a href='#' className='text-white' >MDWordPress</a>
+                                <a href='/' className='text-white' >MDWordPress</a>
                             </p>
                             <p>
-                                <a href='#' className='text-white' >BrandFlow</a>
+                                <a href='/' className='text-white' >BrandFlow</a>
                             </p>
                             <p>
-                                <a href='#' className='text-white' >Bootstrap Angular</a>
+                                <a href='/' className='text-white' >Bootstrap Angular</a>
                             </p>
                         </div>
 
@@ -41,16 +41,16 @@ function Footer() {
                                 Useful links
                             </h6>
                             <p>
-                                <a href='#' className='text-white'>Your Account</a>
+                                <a href='/' className='text-white'>Your Account</a>
                             </p>
                             <p>
-                                <a href='#' className='text-white' >Become an Affiliate</a>
+                                <a href='/' className='text-white' >Become an Affiliate</a>
                             </p>
                             <p>
-                                <a href='#' className='text-white'>Shipping Rates</a>
+                                <a href='/' className='text-white'>Shipping Rates</a>
                             </p>
                             <p>
-                                <a href='#' className='text-white' >Help</a>
+                                <a href='/' className='text-white' >Help</a>
                             </p>
                         </div>
 
@@ -76,10 +76,9 @@ function Footer() {
                                 </div>
                             </div>
                             <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-
-                                <a
+                                {/* <a
                                     className="btn btn-outline-light btn-floating m-1 text-white"
-                                    role="button"
+                                    role="button" 
                                 ><i className="fa fa-facebook-f"></i>
                                 </a>
 
@@ -100,7 +99,7 @@ function Footer() {
                                     className="btn btn-outline-light btn-floating m-1 text-white"
                                     role="button"
                                 ><i className="fa fa-instagram"></i>
-                                </a>
+                                </a> */}
                             </div>
 
                         </div>

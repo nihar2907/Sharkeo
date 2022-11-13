@@ -22,9 +22,7 @@ function App() {
         <Route exact path='/register' element={<Registration />} />
         <Route exact path='/details' element={<Details />} />
       </Routes>
-    
-    {/* <Home /> */}
-    <Footer/>
+      <Footer/>
     </div>
     
   );

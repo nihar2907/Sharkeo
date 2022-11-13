@@ -17,10 +17,10 @@ const Navbar = () => {
                           <a className="nav-link" href="/about">About</a>
                       </li>
                       <li className="nav-item">
-                          <a className="nav-link" href="#">Contact us</a>
+                          <a className="nav-link" href="/contact">Contact us</a>
                       </li>
                   </ul>
-                  <a className="navbar-brand fs-4" href="#"><b>Sharkeo</b> </a>
+                  <a className="navbar-brand fs-4" href="/"><b>Sharkeo</b> </a>
 
                   <NavLink to='/login' className='btn btn-outline-primary ms-auto px-4 rounded-pill'>
                   <i className='fa fa-sign-in me-2'></i> Login </NavLink>
